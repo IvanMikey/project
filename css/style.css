@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5;
+}
+
+.section {
+    padding: 30px 10%;
+}
+
+.header {
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: url(https://img.freepik.com/free-photo/background-of-gradient-lights_23-2149304982.jpg?size=626&ext=jpg);
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s infinite linear;
+}
+
+@keyframes animate{
+    from {
+        background-position: 0 0;
+    }
+    to
+    {
+       background-position: 100% 100px;
+    }
+}
+
+.header span {
+    font-size: 25px;
+    font-weight: 800;
+    display: block;
+}
+
+.header strong {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.main {
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.video, .form {
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form {
+    background-color: rgba(240, 173, 173, 0);
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #783fa5; 
+}
+
+.form-header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.form input {
+    display: block;
+    margin-top: 10px;
+    width: 300px;
+    padding: 17px;
+    border: 1px solid #783fa5;
+    font-size: 18px;
+}
+
+.form-btn {
+    margin-top: 10px;
+    font-style: 18px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: #783fa5;
+    bottom: none;
+    width: 300px;
+    height: 60px;
+}
+
+.col {
+    color: #000000;
+    margin-top: 60px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 110px;
+}
+
+.feature-header {
+    margin-top: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+    background: url(https://images.pexels.com/photos/14339802/pexels-photo-14339802.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s infinite linear;
+}
+
+@keyframes animate{
+    from {
+        background-position: 0 0;
+    }
+    to
+    {
+       background-position: 100% 100px;
+    }
+}
+
+
+.feature-btn {
+    margin-top: 10px;
+    font-style: 18px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: #783fa5;
+    bottom: none;
+    width: 300px;
+    height: 60px;
+    display: block;
+    margin: 10px auto;
+}
